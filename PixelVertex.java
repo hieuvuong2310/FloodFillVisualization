@@ -1,10 +1,3 @@
-package FloodFillVisualization;
-/*
- * PixelVertex.java 
- * Used for Assignment 6 in CSC 225 - Summer 2020
- * You do not need to change this file.
- * A. Estey
- */
 
 import java.awt.Color;
 import java.util.LinkedList;

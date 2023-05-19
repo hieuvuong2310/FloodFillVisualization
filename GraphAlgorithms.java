@@ -1,8 +1,3 @@
-package FloodFillVisualization;
-/*
-	Name: Trong Hieu Vuong
-	Student ID: V00971074
-*/
 
 import java.awt.Color;
 import java.util.*;

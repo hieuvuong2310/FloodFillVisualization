@@ -1,4 +1,3 @@
-package FloodFillVisualization;
 
 import java.awt.Color;
 
