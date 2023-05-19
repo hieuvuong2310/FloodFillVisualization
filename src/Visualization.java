@@ -40,7 +40,7 @@ import javax.swing.Action;
 import javax.swing.AbstractAction;
 import javax.swing.KeyStroke;
 
-public class A6Tester {
+public class Visualization {
 
 	private JFrame viewerWindow;
 	private final JPanel lowerPanel = new JPanel();
@@ -66,7 +66,7 @@ public class A6Tester {
 	ImageAlgorithm selectedAlgorithm;
 
 
-	private A6Tester(String input_filename) {
+	private Visualization(String input_filename) {
 		image_filename = input_filename;
 		currentColour = new Color(0,0,0);
 		samplingColour = false;
@@ -428,7 +428,7 @@ public class A6Tester {
 		java.awt.EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					A6Tester window = new A6Tester(input_filename);
+					Visualization window = new Visualization(input_filename);
 					window.viewerWindow.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -439,7 +439,7 @@ public class A6Tester {
 
 	public static void main(String[] args){
 		if (args.length < 1){
-			System.out.printf("Usage: A6Tester <image.png>\n");
+			System.out.printf("Usage: Visualization <image.png>\n");
 			return;
 		}
 
